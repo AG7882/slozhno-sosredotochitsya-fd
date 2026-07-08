@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-color: rgb(19, 0, 124);
+  background-color: #000028;
   background-image: var(--background-image);
   background-position: center;
   background-attachment: fixed;
@@ -155,7 +155,7 @@
 }
 
 .title-advises {
-  margin-bottom: 10px;
+  font-weight: 400;
 }
 
 .general-text-decor {
@@ -359,7 +359,6 @@
     grid-column: span 2;
   }
   .footer {
-   
     margin-top: -165px;
   }
   .footer_logo {
