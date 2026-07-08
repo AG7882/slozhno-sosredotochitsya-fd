@@ -4,13 +4,8 @@
 */
 
 :root {
-  --background-image: url("../images/cover-image-dark.png");
-  --accent-color: #ff0070;
-  --logo-color: #db00ff;
-  --title-color: #000028;
-  --text-color: #f1b2ce;
   --margin-general: 10px;
   --line-height-general: 23.4px;
   --rec-opacity: 1;
-  --article-title-color: #ff0070;
+  
 }

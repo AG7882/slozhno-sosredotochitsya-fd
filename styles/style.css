@@ -328,6 +328,10 @@
     margin-top: 10px;
   }
 
+  .title-pictures-position {
+    margin-right: 0;
+  }
+
   .pictures_set {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 192px 230px 318px;
@@ -363,7 +367,11 @@
   }
   .footer_logo {
     place-self: center;
-    padding-top: 50px;
+    padding-top: 300px;
+  }
+
+  .title-decor {
+    margin-right: 0;
   }
 }
 
@@ -461,7 +469,7 @@
   .title-pictures-position {
     margin-left: 20px;
     margin-top: 9px;
-    width: calc(100vw - 40px);
+    width: calc(100vw - 60px);
   }
 
   .pictures_set {
