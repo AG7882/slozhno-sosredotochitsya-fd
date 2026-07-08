@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  background-color: #000028;
+  background-color: var(--background-color);
   background-image: var(--background-image);
   background-position: center;
   background-attachment: fixed;
@@ -154,8 +154,19 @@
   text-decoration: none;
 }
 
-.title-advises {
+.page .title-advises {
   font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.section-how-data :first-child {
+  margin-bottom: 10px;
+}
+
+.section-how-data .general-text-decor {
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 .general-text-decor {
@@ -244,7 +255,7 @@
     width: calc(100% - 35px);
     margin: 0 calc((2 * var(--margin-general)));
     margin-top: 10px;
-    margin-right: 30px;
+    margin-right: 0;
   }
 
   .general-text-decor {
@@ -363,15 +374,12 @@
     grid-column: span 2;
   }
   .footer {
-    margin-top: -165px;
+    margin-top: -20px;
+    width: 100%;
   }
   .footer_logo {
     place-self: center;
-    padding-top: 300px;
-  }
-
-  .title-decor {
-    margin-right: 0;
+    padding-top: 50px;
   }
 }
 
