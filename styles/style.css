@@ -212,6 +212,8 @@
 @media (width > 375px) {
   .main_logo {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    padding-left: 0;
+    padding-top: 0;
   }
 
   .header_decorative_title_theme_dark {
@@ -236,11 +238,6 @@
   .header__theme-menu {
     margin-top: 118px;
     margin-right: var(--margin-general);
-  }
-
-  .main_logo {
-    padding-left: 0;
-    padding-top: 0;
   }
 
   .title-decor {
@@ -362,7 +359,7 @@
     grid-column: span 2;
   }
   .footer {
-    min-width: 768px;
+   
     margin-top: -165px;
   }
   .footer_logo {
