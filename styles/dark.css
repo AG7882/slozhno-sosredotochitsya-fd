@@ -11,6 +11,7 @@
   --title-color: #000028;
   --text-color: #f1b2ce;
   --rec-opacity: 1;
+  --article-title-color: #ff0070;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -21,5 +22,6 @@
     --title-color: #000028;
     --text-color: #f1b2ce;
     --rec-opacity: 1;
+    --article-title-color: #ff0070;
   }
 }
