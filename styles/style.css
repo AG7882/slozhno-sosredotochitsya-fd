@@ -249,14 +249,6 @@
     padding-top: 30px;
   }
 
-  .section-why-title {
-    padding-left: 17px;
-  }
-
-  .section-how-title {
-    padding-left: 17px;
-  }
-
   .header_decorative_title_theme_dark {
     top: 23px;
     right: 27px;
@@ -302,6 +294,7 @@
   .section-why-title {
     grid-area: section-why-title;
     padding-top: 20px;
+    padding-left: 17px;
   }
 
   .section-why-data {
@@ -349,6 +342,7 @@
     grid-area: section-how-title;
     margin-right: 0;
     padding-top: 10px;
+    padding-left: 17px;
   }
 
   .section-how-data {
@@ -506,7 +500,6 @@
     grid-template-columns: repeat(3, 1fr);
     /*grid-template-rows: repeat(2, auto);*/
     gap: 20px;
-    padding-left: 8px;
     width: 100%;
     padding-left: 10px;
     padding-right: 30px;
