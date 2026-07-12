@@ -249,6 +249,14 @@
     padding-top: 30px;
   }
 
+  .section-why-title {
+    padding-left: 17px;
+  }
+
+  .section-how-title {
+    padding-left: 17px;
+  }
+
   .header_decorative_title_theme_dark {
     top: 23px;
     right: 27px;
@@ -340,6 +348,7 @@
   .section-how-title {
     grid-area: section-how-title;
     margin-right: 0;
+    padding-top: 10px;
   }
 
   .section-how-data {
@@ -392,10 +401,6 @@
   .pictures_spacing:nth-child(5) {
     grid-column: span 2;
   }
-
-  .section-how-title {
-    padding-top: 10px;
-  }
 }
 
 @media (width >= 768px) {
@@ -405,6 +410,14 @@
     grid-template-areas: "section-how-title section-how-data";
     padding-left: 10px;
     margin-bottom: 50px;
+  }
+
+  .section-how-title {
+    padding-left: 0px;
+  }
+
+  .section-why-title {
+    padding-left: 0px;
   }
 
   .section-why-spacing {
